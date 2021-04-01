@@ -7,10 +7,8 @@ import id.zelory.compressor.overWrite
 import java.io.File
 
 /**
- * Created on : January 25, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 默认约束
+ * 采样率压缩，并且质量压缩（减小压缩率，进行色度抽样的操作 100 -> 80）
  */
 class DefaultConstraint(
         private val width: Int = 612,

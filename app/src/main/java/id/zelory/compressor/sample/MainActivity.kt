@@ -11,12 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import id.zelory.compressor.Compressor
-import id.zelory.compressor.constraint.default
-import id.zelory.compressor.constraint.destination
-import id.zelory.compressor.constraint.format
-import id.zelory.compressor.constraint.quality
-import id.zelory.compressor.constraint.resolution
-import id.zelory.compressor.constraint.size
+import id.zelory.compressor.constraint.*
 import id.zelory.compressor.loadBitmap
 import kotlinx.android.synthetic.main.activity_main.actualImageView
 import kotlinx.android.synthetic.main.activity_main.actualSizeTextView

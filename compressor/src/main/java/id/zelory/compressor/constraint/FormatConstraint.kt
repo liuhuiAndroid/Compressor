@@ -7,10 +7,7 @@ import id.zelory.compressor.overWrite
 import java.io.File
 
 /**
- * Created on : January 24, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 图片格式约束
  */
 class FormatConstraint(private val format: Bitmap.CompressFormat) : Constraint {
 

@@ -5,10 +5,7 @@ import id.zelory.compressor.overWrite
 import java.io.File
 
 /**
- * Created on : January 25, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 质量约束（减小压缩率，进行色度抽样的操作）
  */
 class QualityConstraint(private val quality: Int) : Constraint {
     private var isResolved = false

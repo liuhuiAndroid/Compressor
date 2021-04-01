@@ -3,10 +3,7 @@ package id.zelory.compressor.constraint
 import java.io.File
 
 /**
- * Created on : January 25, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 图片位置约束
  */
 class DestinationConstraint(private val destination: File) : Constraint {
     override fun isSatisfied(imageFile: File): Boolean {

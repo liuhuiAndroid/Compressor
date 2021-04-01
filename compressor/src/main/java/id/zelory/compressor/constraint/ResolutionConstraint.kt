@@ -8,10 +8,7 @@ import id.zelory.compressor.overWrite
 import java.io.File
 
 /**
- * Created on : January 24, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 采样率约束
  */
 class ResolutionConstraint(private val width: Int, private val height: Int) : Constraint {
 

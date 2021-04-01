@@ -21,8 +21,11 @@ object Compressor {
             coroutineContext: CoroutineContext = Dispatchers.IO,
             compressionPatch: Compression.() -> Unit = { default() }
     ) = withContext(coroutineContext) {
+        // 收集约束条件
         val compression = Compression().apply(compressionPatch)
+        // copy一份原图片
         var result = copyToCache(context, imageFile)
+        // 对copy图片进行压缩
         compression.constraints.forEach { constraint ->
             while (constraint.isSatisfied(result).not()) {
                 result = constraint.satisfy(result)

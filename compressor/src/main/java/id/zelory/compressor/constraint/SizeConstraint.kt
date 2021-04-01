@@ -5,10 +5,7 @@ import id.zelory.compressor.overWrite
 import java.io.File
 
 /**
- * Created on : January 24, 2020
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
+ * 图片大小约束，通过质量约束（减小压缩率，进行色度抽样的操作），最小质量为10
  */
 class SizeConstraint(
         private val maxFileSize: Long,
